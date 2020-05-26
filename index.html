@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Hand Cricket</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/script.js"></script>
+    </head>
+    <body id="index_body">
+        <header>
+            <h1>Welcome to Hand Cricket</h1>
+        </header>
+        <section>
+            <div id="user_teams">
+                <h2>choose your team:</h2> <p id="user_error"></p>
+
+                <button id="user_csk" onclick="teamChoice(this)">
+                </button>
+
+                <button id="user_mi" onclick="teamChoice(this)">
+                </button>
+
+                <button id="user_kkr" onclick="teamChoice(this)">
+                </button>
+                
+                <button id="user_rcb" onclick="teamChoice(this)">
+                </button>
+
+                <button id="user_srh" onclick="teamChoice(this)">
+                </button>
+
+                <button id="user_rr" onclick="teamChoice(this)">
+                </button>
+
+                <button id="user_kxip" onclick="teamChoice(this)">
+                </button>
+
+                <button id="user_dd" onclick="teamChoice(this)">
+                </button>
+            </div>
+
+            <div id="computer_teams">
+                <h2>choose computer's team:</h2> <p id="comp_error"></p>
+
+                <button id="comp_csk" onclick="teamChoice(this)">
+                </button>
+
+                <button id="comp_mi" onclick="teamChoice(this)">
+                </button>
+
+                <button id="comp_kkr" onclick="teamChoice(this)">
+                </button>
+                
+                <button id="comp_rcb" onclick="teamChoice(this)">
+                </button>
+
+                <button id="comp_srh" onclick="teamChoice(this)">
+                </button>
+
+                <button id="comp_rr" onclick="teamChoice(this)">
+                </button>
+
+                <button id="comp_kxip" onclick="teamChoice(this)">
+                </button>
+
+                <button id="comp_dd" onclick="teamChoice(this)">
+                </button>
+            </div>
+            
+            <form action="game.html">
+                <label for="overs">No Of Overs : </label>
+                <select id="overs" name="overs">
+                    <option value="2overs">2 overs</option>
+                    <option value="4overs">4 overs</option>
+                    <option value="6overs">6 overs</option>
+                    <option value="10overs">10 overs</option>
+                </select>
+                
+                <label for="wickets">No Of Wickets : </label>
+                <select id="wickets" name="wickets">
+                    <option value="2 wickets">2 wickets</option>
+                    <option value="5 wickets">5 wickets</option>
+                    <option value="10 wickets">10 wickets</option>
+                </select>
+                <br/>
+                <input type="submit" value="start" id="start" onclick="saveData()">
+            </form>
+            
+        </section>
+    </body>
+</html>

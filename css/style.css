@@ -1,0 +1,292 @@
+body {
+    margin: 0;
+}
+
+header{
+    clear: both;
+    display: block;
+    background-color: #F2F2F2;
+    text-align: center;
+    color: #514D4D;
+    font-variant: small-caps;
+    font-size: xx-large;
+    font-family: Comic Sans MS;
+    padding: 1.5%;
+}
+
+i {
+    margin: 0 2%;
+}
+
+#hand_heading {
+    margin-left: 2%;
+}
+
+#score_div p {
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: large;
+    background-color: #514D4D;
+    display: inline;
+    color: #ffffff;
+    /* margin: 02%; */
+    padding: 0 1%;
+    
+}
+
+#score_div {
+    text-align: center;
+    background-color: #F2F2F2;
+}
+
+#left_div{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 50%;
+    top: 0;
+    left: 0;
+    /* height: 1000px; */
+    text-align: center;
+    color: #ffffff;
+    /* margin-left: -0.6%; */
+    /* margin-top: -0.6%; */
+    display: inline-block;
+    font-variant: small-caps;
+    font-size: x-large;
+}
+
+#right_div{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 50%;
+    /* height: 1000px; */
+    text-align: center;
+    /* margin-top: -10px; */
+    margin-left: -0.3%;
+    color: #ffffff;
+    display: inline-block;
+    position: relative;
+    float: right;
+    font-variant: small-caps;
+    font-size: x-large;
+}
+
+#one {
+    background: url(../images/one.jpg);
+    background-color: #ffffff;
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    margin-left: 30;
+}
+
+#two {
+    background: url(../images/two.jpg);
+    background-color: #ffffff;
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    margin-left: 20%;
+}
+
+#three {
+    background: url(../images/three.jpg);
+    background-color: #ffffff;
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    margin-left: 20%;
+}
+
+#four {
+    background: url(../images/four.jpg);
+    background-color: #ffffff;
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+}
+
+#five {
+    background: url(../images/five.jpg);
+    background-color: #ffffff;
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    margin-top: 5%;
+}
+
+#six {
+    background: url(../images/six.jpg);
+    background-color: #ffffff;
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+}
+
+/* ****************** styling for index html ****************** */
+
+#index_body {
+    background-color:#99ccff;
+}
+
+#index_body header {
+    font-size: medium;
+}
+
+#index_body header h1{
+    margin-left: 6%;
+}
+
+#index_body section {
+    margin-left: 5%;
+}
+
+#index_body h2 {
+    color: #ffffff;
+    text-align: center;
+}
+
+#user_csk, #comp_csk {
+    background-image: url(../images/chennai_super_kings_logo.png);
+    width:70px;
+    height: 70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    margin-left: 28%;
+}
+
+#user_mi, #comp_mi {
+    background-image: url(../images/mumbai-indians_logo.png);
+    width:70px;
+    height: 70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+}
+
+#user_kkr, #comp_kkr {
+    background-image: url(../images/kkr_logo.jpg);
+    width:70px;
+    height: 70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+}
+
+#user_rcb, #comp_rcb {
+    background-image: url(../images/rcb_logo.jpg);
+    width:70px;
+    height: 70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+}
+
+#user_srh, #comp_srh {
+    background-image: url(../images/srh_logo.png);
+    width:70px;
+    height: 70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+}
+
+#user_rr, #comp_rr {
+    background-image: url(../images/rr_logo.png);
+    width:70px;
+    height: 70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+}
+
+#user_kxip, #comp_kxip {
+    background-image: url(../images/kxip_logo.jpg);
+    width:70px;
+    height: 70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+}
+
+#user_dd, #comp_dd {
+    background-image: url(../images/dd_logo.png);
+    width:70px;
+    height: 70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+}
+
+label {
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: large;
+}
+
+form {
+    margin-top: 2%;
+    margin-left: 28%;
+}
+
+select {
+    margin-top: 1%;
+    padding: 0.3%;
+    border: none;
+    background-color: #F2F2F2;
+    color: #514D4D;
+    margin-left: 2%;
+    font-family: Comic Sans MS;
+}
+label{
+    margin-left: 2%;
+}
+#overs {
+    margin-left: 3.2%;
+    margin-bottom: 5%;
+}
+
+#start {
+    margin-left: 24%;
+    background-color: #514D4D;
+    display: inline;
+    padding: 1% 3%;
+    border-radius: 20%;
+    background-color: #ff0000;
+    color: #ffffff;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: large;
+    font-family: Comic Sans MS;
+}
+
+#index_body p {
+    color: #ff0000;
+}
