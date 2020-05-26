@@ -52,10 +52,14 @@ function teamChoice(teamId) {
 }
 
 function gameLoad() {
-    console.log(bgImgs[localStorage.getItem('userTeam')]);
-    console.log(bgImgs[localStorage.getItem('computerTeam')]);
-    document.getElementById('left_div').style.backgroundImage = bgImgs[localStorage.getItem('userTeam')];
-    document.getElementById('right_div').style.backgroundImage = bgImgs[localStorage.getItem('computerTeam')];
+    userTeam = localStorage.getItem('userTeam');
+    computerTeam = localStorage.getItem('computerTeam');
+    console.log(bgImgs[userTeam]);
+    console.log(bgImgs[computerTeam]);
+    document.getElementById('left_div').style.backgroundImage = bgImgs[userTeam];
+    document.getElementById('right_div').style.backgroundImage = bgImgs[computerTeam];
+    document.getElementById('userTeamName').innerHTML = userTeam;
+    document.getElementById('compTeamName').innerHTML = computerTeam;
 }
 
 function saveData() {
