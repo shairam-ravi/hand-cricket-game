@@ -12,6 +12,17 @@ var bgImgs = {
     "rr" : "url('images/rajasthan-royals.png')"
 }
 
+var color = {
+    "csk" : "#0081E9",
+    "mi" : "#D1AB3E",
+    "srh" : "#000000",
+    "kkr" : "#B3A123",
+    "dd" : "#00008B",
+    "kxip" : "#DCDDDF",
+    "rcb" : "#D1AB3E", 
+    "rr" : "#CBA92B"
+}
+
 function teamChoice(teamId) {
     if(teamId.parentNode.id == 'user_teams') {
         if( teamId.disabled == true ){
@@ -54,12 +65,15 @@ function teamChoice(teamId) {
 function gameLoad() {
     userTeam = localStorage.getItem('userTeam');
     computerTeam = localStorage.getItem('computerTeam');
-    console.log(bgImgs[userTeam]);
-    console.log(bgImgs[computerTeam]);
+    var userTeamName = document.getElementById('userTeamName');
+    var compTeamName = document.getElementById('compTeamName');
+    
     document.getElementById('left_div').style.backgroundImage = bgImgs[userTeam];
     document.getElementById('right_div').style.backgroundImage = bgImgs[computerTeam];
-    document.getElementById('userTeamName').innerHTML = userTeam;
-    document.getElementById('compTeamName').innerHTML = computerTeam;
+    userTeamName.innerHTML = userTeam;
+    userTeamName.style.color = color[userTeam];
+    compTeamName.innerHTML = computerTeam;
+    compTeamName.style.color = color[computerTeam];
 }
 
 function saveData() {
