@@ -65,15 +65,14 @@ function teamChoice(teamId) {
 function gameLoad() {
     userTeam = localStorage.getItem('userTeam');
     computerTeam = localStorage.getItem('computerTeam');
-    var userTeamName = document.getElementById('userTeamName');
-    var compTeamName = document.getElementById('compTeamName');
-    
+    console.log(bgImgs[userTeam]);
+    console.log(bgImgs[computerTeam]);
     document.getElementById('left_div').style.backgroundImage = bgImgs[userTeam];
     document.getElementById('right_div').style.backgroundImage = bgImgs[computerTeam];
-    userTeamName.innerHTML = userTeam;
-    userTeamName.style.color = color[userTeam];
-    compTeamName.innerHTML = computerTeam;
-    compTeamName.style.color = color[computerTeam];
+    document.getElementById('userTeamName').innerHTML = userTeam;
+    document.getElementById('userTeamName').style.color = color[userTeam];
+    document.getElementById('compTeamName').innerHTML = computerTeam;
+    document.getElementById('compTeamName').style.color = color[computerTeam];
 }
 
 function saveData() {
